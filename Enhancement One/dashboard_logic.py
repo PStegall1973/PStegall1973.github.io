@@ -5,7 +5,7 @@ import re
 import pandas as pd
 
 
-# noinspection pep8-naming,pep8-naming,pep8-naming,pep8-naming,pep8-naming,pep8-naming,pep8-naming,pep8-naming,pep8-naming,pep8-naming,pep8-naming
+# Pre Defined Database Queries
 def get_rescue_queries():
 
     # Define regex patterns
