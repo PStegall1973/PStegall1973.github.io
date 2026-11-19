@@ -1,5 +1,6 @@
 #########################################
 # Query Comparison Test
+# Test and Compare both "ALL" Queries
 ########################################
 
 # Page imports

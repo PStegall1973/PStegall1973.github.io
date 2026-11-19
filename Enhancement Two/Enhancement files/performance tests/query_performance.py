@@ -1,5 +1,9 @@
-from pprint import pprint
+###########################################
+# This Measures the New Query's Performance
+###########################################
 
+# Page Imports
+from pprint import pprint
 from CRUD import AnimalShelter
 from dashboard_logic import get_rescue_queries
 

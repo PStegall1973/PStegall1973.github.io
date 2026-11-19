@@ -3,16 +3,16 @@
 # Filtering, Tables, Graphs, and Maps
 ########################################
 
+# Page Imports
 import dash
 import pandas as pd
 import plotly.express as px
 import dash_leaflet as dl
 from dash import dcc, html
 from dash.dependencies import Input, Output
-
 from dashboard_logic import get_dashboard_records
 
-
+# Register Dashboard Callbacks
 def register_callbacks(app, shelter):
 
     #############################################
@@ -29,7 +29,8 @@ def register_callbacks(app, shelter):
         Input('btn-mountain', 'n_clicks'),
         Input('btn-disaster', 'n_clicks'),
         prevent_initial_call=True)
-
+    
+    # Set Filter Function
     def set_filter(
             _water_clicks,
             _mountain_clicks,
